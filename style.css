@@ -1,0 +1,50 @@
+/* Gaya dasar untuk seluruh halaman */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+/* Gaya untuk daftar produk */
+#product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#product-list div {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Gaya untuk keranjang belanja */
+#cart {
+    display: flex;
+    flex-direction: column;
+}
+
+#cart div {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    margin: 5px 0;
+}
+
+/* Gaya untuk tombol Checkout */
+#checkout-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#checkout-button:hover {
+    background-color: #0056b3;
+}
